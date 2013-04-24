@@ -15,6 +15,6 @@ CSS files for giving Chrome DevTools a different look-and-feel
   - windows XP: `C:\Users\{UserName}\AppData\Local\Google\… Data\Default\User StyleSheets`
   - mac OSX : ` ~/Library/Application Support/Google/Chrome/Default/User StyleSheets/`
 
- 2. replace the contents of `Custom.css` with `sublime.css` in this repo
+ 2. replace the contents of `Custom.css` with `sublime.css` from this repo
 
  
