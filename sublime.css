@@ -6,7 +6,7 @@
 }
 
 #-webkit-web-inspector .webkit-html-tag,
-.value.console-formatted-array,
+#-webkit-web-inspector .console-formatted-array,
 #-webkit-web-inspector .webkit-line-content,
 #-webkit-web-inspector .webkit-javascript-ident {
     color:#eee!important;
