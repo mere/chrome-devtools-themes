@@ -237,3 +237,34 @@ color:#3f9bd1!important;
 .webkit-whitespace::before {
     color:#333!important;
 }
+
+
+/* CodeMirror compatibility */
+
+.CodeMirror, .CodeMirror pre {background: #272822; color: #C2C3C3 !important;}
+ div.CodeMirror-selected {background: #49483E !important;}
+ .CodeMirror-gutters {background: #272822; border-right: 0px;}
+ .CodeMirror-linenumber {color: #d0d0d0;}
+ .CodeMirror-cursor {border-left: 1px solid #f8f8f0 !important;}
+
+
+ span.cm-comment {color: #75715e !important;}
+ span.cm-atom {color: #ae81ff !important;}
+ span.cm-number {color: #ae81ff !important;}
+
+ span.cm-property,  span.cm-attribute {color: #C2C3C3 !important;}
+ span.cm-keyword {color: #F92672 !important;}
+ span.cm-string {color: #e6db74 !important;}
+
+ span.cm-variable {color: #a6e22e !important;}
+ span.cm-variable-2 {color: #9ACBFB !important;}
+ span.cm-def {color: #fd971f !important;}
+ span.cm-error {background: #f92672 !important; color: #f8f8f0 !important;}
+ span.cm-bracket {color: #f8f8f2 !important;}
+ span.cm-tag {color: #f92672 !important;}
+ span.cm-link {color: #ae81ff !important;}
+
+ .CodeMirror-matchingbracket {
+  text-decoration: underline;
+  color: white !important;
+}
